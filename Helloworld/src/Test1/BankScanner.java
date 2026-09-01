@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class BankScanner {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
+		
 		String name;
 	    double balance = 0;
 	    double deposit;
