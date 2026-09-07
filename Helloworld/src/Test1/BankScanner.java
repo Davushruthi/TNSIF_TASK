@@ -18,12 +18,12 @@ public class BankScanner {
         balance = balance + deposit;
         System.out.println("Balance: " + balance);
         
-
         System.out.print("Enter withdrawal amount: ");
         withdraw = sc.nextDouble();
-
+        
         balance = balance - withdraw;
-
+        
+        System.out.println(" ");
         System.out.println("Name: " + name);
         System.out.println("Balance: " + balance);
 
